@@ -2,13 +2,14 @@
 #include <ctype.h>
 
 int main() {
-    char c = 'D';
+    char c = 'm';
 
-    if (isupper(c)) {
-        printf("%c e uma letra maiuscula.\n", c);
+    if (islower(c)) {
+        printf("%c e uma letra minuscula.\n", c);
     } else {
-        printf("%c nao e uma letra maiuscula.\n", c);
+        printf("%c nao e uma letra minuscula.\n", c);
     }
 
     return 0;
 }
+
